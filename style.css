@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(189, 43, 43);
+
+}
+
+header { 
+    background-color: rgba(72, 109, 109, 0.281);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+}
+
+header > *{
+    display: inline-block;
+}
+
+main {
+    background-color: rgba(46, 173, 63, 0.438);
+    display: inline-block;
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+    font-size: 1cm;
+    text-decoration: none;
+}  
+
+#left {
+    background-color: red;
+   
+}
+
+ 
+#right {
+    background-color: blue;
+
+} 
+.small-image { 
+    height: 50px;
+    
+    }
+
+.large-image {
+    height: 320px;
+}
